@@ -1,0 +1,263 @@
+/* CSS reset */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: url("../img/bg1.jpg") center center;
+    height: 480px;
+    background-repeat: no-repeat;
+    background-size: 1600px 1000px;
+}
+
+/* CSS variables */
+:root{
+    --navbar-height: 59px;
+}
+
+/* Navigation bar */
+#navbar{
+    display: flex;
+    align-items: center;
+    position: sticky;
+    background-color: rgb(86, 37, 37);
+    height: 80px;
+}
+
+/* Navigation Bar: Logo and Image  */
+#logo{
+    margin: 34px 45px;
+}
+#logo img{
+    height: 66px;
+    margin: -20px -32px;
+    border-radius: 44px;
+}
+
+
+/* Navigation Bar: list styling  */
+#navbar ul{
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* #navbar::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    height: 100px;
+    width: 100%;
+    z-index: -1;
+    opacity:0.4
+} */
+
+#navbar ul li{
+    
+    list-style: none;
+    font-size: 1.3rem;
+}
+
+#navbar ul li a{
+    color: white;
+    display: block;
+    padding: 3px 24px;
+    border-radius: 12px;
+    text-decoration: none;
+}
+
+#navbar ul li a:hover{
+    color: rgb(0, 0, 0);
+    display: block;
+    background-color: white;
+}
+
+/* Home section  */
+#home{
+    display: flex;
+    flex-direction: column;
+    padding: 3px 200px;
+    height: 600px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+#home h1{
+    color: white;
+    text-align: center;
+    text-align: center;
+    font-size: 5.5rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+#home p{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* #home::before{
+    content:"";
+    position: absolute;
+    background: url("../img/bg1.jpg") no-repeat center center/cover;
+    z-index: -1;
+  
+} */
+
+/* Utility classes  */
+.hprimary{
+    padding: 12px;
+}
+
+.btn{
+    padding: 7px 25px;
+    background-color: rgba(221, 147, 44, 0.693);
+    border: 1px solid white;
+    margin: 17px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.1rem;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: rgba(147, 96, 1, 0.811);
+}
+
+/* Services section  */
+.center{
+    text-align: center;
+}
+
+.isecondary{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-size: 2.8rem;
+    padding: 12px;
+}
+
+#services{
+    margin: 34px;
+    display: flex;
+}
+#services .box{
+    /* border: 2px solid red; */
+    padding: 17px 21px ;
+    margin: -21px 6px ;
+    border-radius: 20px;
+    background-color: rgb(89, 129, 77);
+    transition: all 0.2s ease-in-out;
+}
+#services .box:hover{
+    transform: scale(1.1);
+    border: 1px solid white;
+}
+
+
+#services .box img{
+    height: 100px;
+    display: block;
+    margin: auto;
+    border-radius: 15px;
+}
+.services-container{
+    padding: 34px 34px;
+    margin: 34px 34px;
+}
+
+.iprimary{
+    font-family: 'Poppins', sans-serif;
+}
+
+.box p{
+    font-family: 'Poppins', sans-serif;
+}
+
+/* SECTION-2 CSS */
+.section2{
+    background: url("../img/bg2.jpg");
+    height: 700px;
+    background-size: 1600px 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section2 h1{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 5.8rem;
+}
+
+/* CONTACT SECTION  */
+
+/* HARRY SECRECT METHOD to add opacity and stuff directly to bg img  */
+/* .contact{
+    position: relative;
+}
+#contact::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background: url("../img/contact2.jpg");
+} */
+
+.section3{
+    background: url("../img/contact2.jpg");
+    background-size: 1600px 1000px;
+    height: 600px;
+    padding: 54px 34px;
+}
+
+.section3 h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.8rem;
+    color: white;
+}
+
+.section3 .contact{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 34px;
+}
+
+.contact input,
+.contact textarea{
+    width: 600px;
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.contact form{
+    width: 40%;
+}
+
+.contact label{
+    font-size: 1.3rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* .formgroup{
+    padding: px;
+ } */
+
+
+
+footer{
+    background-color: black;
+    color: white;
+    padding: 6px;
+    align-items: center;
+}
+
+
+
+
