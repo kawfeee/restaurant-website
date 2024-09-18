@@ -5,7 +5,7 @@ This is a **frontend** project for a restaurant website, presenting a warm and i
 
 ## Live Demo
 
-Check out the live demo of the website [here](link_to_live_demo).
+Check out the live demo of the website [here](https://kawfeee.github.io/restaurant-website/).
 
 ## Features
 
